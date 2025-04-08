@@ -1,15 +1,13 @@
 import { Component } from '@angular/core';
-import { map } from 'rxjs';
 import { IProperty } from 'src/app/models/IProperty.model';
 import { PropertyService } from 'src/app/services/property.service';
 
 @Component({
-  selector: 'app-property-list',
-  templateUrl: './property-list.component.html',
-  styleUrls: ['./property-list.component.scss']
+  selector: 'app-rent-property',
+  templateUrl: './rent-property.component.html',
+  styleUrls: ['./rent-property.component.scss']
 })
-export class PropertyListComponent {
-
+export class RentPropertyComponent {
   properties!: Array<IProperty>;
 
   constructor(
@@ -21,11 +19,10 @@ export class PropertyListComponent {
   }
 
   async getProperties() {
-    (await this.propertyService.getProperties(0)).subscribe((response: Array<IProperty>) => {
+    (await this.propertyService.getProperties(2)).subscribe((response: Array<IProperty>) => {
       this.properties = response;
     }, (err: Error) => {
       console.error(err.message);
     })
   }
-
 }

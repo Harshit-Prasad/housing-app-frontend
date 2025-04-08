@@ -1,1 +1,22 @@
-<p>property-card works!</p>
+<div class="card" style="width: 18rem;">
+    <div class="card-img-warpper">
+        <img *ngIf="property?.ImgUrl" [src]="property?.ImgUrl" class="card-img-top card-img">
+        <img *ngIf="!property?.ImgUrl" src="assets/images/default.jpeg" class="card-img-top card-img">
+    </div>
+
+    <div class="card-body">
+        <h5 class="card-title">{{ property.Location }}</h5>
+        <div class="card-info">
+            <div class="card-text d-flex gap-2">
+                <span class="badge text-bg-warning">{{property.Type}}</span>
+                <span class="badge text-bg-info">{{property.Price}}</span>
+            </div>
+
+            <div>
+                <a class="btn btn-primary" routerLink="property-detail/{{property.Id}}">
+                    Details
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,80 @@
+[
+    {
+        "Id": 1,
+        "Location": "Pune",
+        "Type": "Flat",
+        "SellRent": 2,
+        "Price": 10000,
+        "ImgUrl": "assets/images/house.jpg"
+    },
+    {
+        "Id": 2,
+        "Location": "Delhi",
+        "Type": "Duplex",
+        "SellRent": 1,
+        "Price": 20000,
+        "ImgUrl": "assets/images/house.jpg"
+    },
+    {
+        "Id": 3,
+        "Location": "Chennai",
+        "Type": "Flat",
+        "SellRent": 1,
+        "Price": 30000,
+        "ImgUrl": "assets/images/house.jpg"
+    },
+    {
+        "Id": 4,
+        "Location": "Mumbai",
+        "Type": "Villa",
+        "SellRent": 1,
+        "Price": 50000,
+        "ImgUrl": "assets/images/house.jpg"
+    },
+    {
+        "Id": 5,
+        "Location": "Hyderabad",
+        "Type": "Flat",
+        "SellRent": 1,
+        "Price": 15000,
+        "ImgUrl": "assets/images/house.jpg"
+    },
+    {
+        "Id": 6,
+        "Location": "Bangalore",
+        "Type": "Duplex",
+        "SellRent": 2,
+        "Price": 25000
+    },
+    {
+        "Id": 7,
+        "Location": "Kolkata",
+        "Type": "Flat",
+        "SellRent": 1,
+        "Price": 18000,
+        "ImgUrl": "assets/images/house.jpg"
+    },
+    {
+        "Id": 8,
+        "Location": "Ahmedabad",
+        "Type": "Villa",
+        "SellRent": 1,
+        "Price": 40000,
+        "ImgUrl": "assets/images/house.jpg"
+    },
+    {
+        "Id": 9,
+        "Location": "Jaipur",
+        "Type": "Flat",
+        "SellRent": 1,
+        "Price": 12000
+    },
+    {
+        "Id": 10,
+        "Location": "Lucknow",
+        "Type": "Duplex",
+        "SellRent": 2,
+        "Price": 22000,
+        "ImgUrl": "assets/images/house.jpg"
+    }
+]
